@@ -1,0 +1,285 @@
+*{
+    width: 100%;
+    margin: 0;
+    font-family: inherit;
+    padding: 0;
+}
+header{
+    position: sticky;
+}
+
+.nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+.urban-logo{
+    height: 85px;
+    width: 500px;
+    margin-left: 140px;
+    
+}
+
+.nav-list{
+    
+    width: 25%;
+    margin: 0 20px 0 0;
+}
+hr{
+    color: rgb(219, 218, 218);
+    outline: 1px;
+}
+
+.list-style{
+    list-style: none;
+    display: flex;
+    margin: 30px 60px 30px 40px ;
+    font-family: inherit;
+    color: rgb(133, 131, 131);
+    
+}
+.container-map{
+    display: flex;
+    width: 75%;
+    border:1px solid rgb(225, 225, 225);
+    outline:5px;
+    border-radius: 8px;
+    margin-left: 110px;
+    margin-top: 17px;
+    height: 48px;
+   align-items: center;
+
+}
+.search-map {
+    margin-left: -25px;
+    align-items: center;
+    
+}
+
+.map-placeholder input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+  margin-left: -25px;
+    align-items: center;
+    font-size: 15px;
+
+}
+.map-data{
+    margin-right: -25px;
+    align-items: center;
+    
+}
+
+.container-search{
+    display: flex;
+    width: 75%;
+    border:1px solid rgb(225, 225, 225);
+    outline:5px;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-top: 17px;
+    height: 48px;
+   align-items: center;
+
+}
+
+.search-icon {
+    margin-left: -50px;
+    align-items: center;
+    
+}
+
+.search-placeholder input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+  margin-left: -50px;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    padding: 30px;
+}
+.svg1{
+    align-items: center;
+    margin-right: -100px;
+}
+.svg2{
+    align-items: center;
+    margin-left: -120px;
+}
+hr{
+    outline: 1px rgb(219, 218, 218);
+}
+
+.services{
+    width: 100%;
+    height: 1000px;
+   display: flex;
+    margin-top: 50px;
+    margin-bottom: -270px;
+}
+h1{
+    font-size: 34px;
+    align-items: center;
+    margin-left: 25px;
+    width: 100%;
+    font-style: inherit;
+}
+
+.services-info{
+    width: 500px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 70px;
+    height: 1000px;
+    margin-top: -20px;
+}
+
+
+.service-head{
+    height: 150px;
+    align-content: center;
+    content:normal;
+    
+}
+.head{
+    color: rgb(129, 129, 129);
+    font-size: 22px;
+    margin:25px 15px;
+    height: 50px;
+    align-content: center;
+}
+.services-types{
+    height: 400px;
+    border: 1px rgb(219, 219, 219);
+    outline:1px solid rgb(219, 219, 219);
+    border-radius: 20px;
+    margin-top: -30px;
+    width: 100%;
+}
+.services-row1{
+    display: flex;
+    height: 80px;
+   
+    width: 100%;
+
+}
+.img{
+    width: 50%;
+    margin: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+.img img{
+    margin: 0 10px;
+    height: 50px;
+    align-items: center;
+}
+
+.services-row2{
+    display: flex;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 90%;
+    
+}
+.services-row2-1{
+    width: 100%;
+    display: flex;
+    margin-right: 40px;
+    align-content: center;
+
+}
+.services-row2-2{
+    width: 100%;
+    display: flex;
+    margin: 5px;
+    align-content: center;
+}
+
+
+.services-row3{
+    display: flex;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 90%;
+}
+.services-row3-1{
+    width: 100%;
+    display: flex;
+    margin-right: 40px;
+    align-content: center;
+}
+.services-row3-2{
+    width: 100%;
+    display: flex;
+    margin: 5px;
+    align-content: center;
+}
+
+.service-rating{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-content: center;
+}
+
+.rating{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    align-content: center;
+    margin-top: 50px;
+}
+.rating img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -20px;
+}
+.rating-text{
+    margin-left: -20px;
+}
+.rating-text h2{
+    margin-bottom: 10px;
+}
+
+.customer{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+    align-content: center;
+}
+.customer-text{
+    margin-left: -20px;
+}
+.customer h2{
+    margin-bottom: 10px;
+}
+
+.services-img{
+    width:650px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: -170px;
+    height: 1000px;
+}
+
+
+
+
